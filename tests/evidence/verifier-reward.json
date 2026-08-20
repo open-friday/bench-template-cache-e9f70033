@@ -1,0 +1,22 @@
+{
+  "overall": 1.0,
+  "test_pass_rate": 1.0,
+  "tests_passed": 12,
+  "tests_total": 12,
+  "test_status": "pass",
+  "tests": [
+    {"name": "same template tokenizes once", "passed": true, "detail": ""},
+    {"name": "same template compiles once", "passed": true, "detail": ""},
+    {"name": "filters stay dynamic with cached template", "passed": true, "detail": ""},
+    {"name": "autoescape true escapes cached variable", "passed": true, "detail": ""},
+    {"name": "autoescape is part of cache identity", "passed": true, "detail": ""},
+    {"name": "cache_size evicts least recently used template", "passed": true, "detail": ""},
+    {"name": "cache_size zero disables cache", "passed": true, "detail": ""},
+    {"name": "cached template still renders changing context", "passed": true, "detail": ""},
+    {"name": "plain text template is cached", "passed": true, "detail": ""},
+    {"name": "large repeated render is quick", "passed": true, "detail": ""},
+    {"name": "different template source compiles separately", "passed": true, "detail": ""},
+    {"name": "missing variables stay empty with cached template", "passed": true, "detail": ""}
+  ],
+  "verifier_sha256": "4539808742ea4be9e4d4335bcdad9d24be6c643e36e52ea25b7d1218b3e37167"
+}
